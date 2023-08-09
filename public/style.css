@@ -5,7 +5,7 @@
 }
 
 body {
-    background: #0010bf;
+    background: #00021d;
     font-family: 'Edu TAS Beginner', sans-serif;
 }
 
@@ -17,7 +17,7 @@ body {
     padding: 20px;
     width: 600px;
     transform: translate(-50%, -50%);
-    background: rgba(255, 255, 255, 0.1);
+    background: rgba(36, 1, 110, 0.302);
     border-radius: 20px;
     display: flex;
     flex-direction: column;
