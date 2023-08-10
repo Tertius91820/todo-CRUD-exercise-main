@@ -17,7 +17,7 @@ body {
     padding: 20px;
     width: 600px;
     transform: translate(-50%, -50%);
-    background: rgba(36, 1, 110, 0.302);
+    background: rgba(40, 2, 121, 0.302);
     border-radius: 20px;
     display: flex;
     flex-direction: column;
@@ -51,7 +51,7 @@ textarea {
 }
 
 .todo-header button {
-    display:block;
+    /*display:block;*/
     color: white;
     border: none;
     cursor: pointer;

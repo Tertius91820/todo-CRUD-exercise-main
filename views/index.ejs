@@ -22,14 +22,14 @@ integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7
                 <button type="submit"><span class="fas fa-plus">Add Task</span></button>
             </form>
             <ul class="todo-list">
-                <% todoTasks.forEach(details => { %>
+                <% todoTasks.forEach(task => { %>
                     <li class="todo-list-item">
-                        <div class="todo-list-item-title"><%= details.title %></div>
-                        <div class="todo-list-item-content"><%= details.content %></div>
-                        <a href="/edit/<%= details._id %>" class="edit">
+                        <div class="todo-list-item-title"><%= task.title %></div>
+                        <div class="todo-list-item-content"><%= task.content %></div>
+                        <a href="/edit/<%= task._id %>" class="edit">
                         <span class="fas fa-edit"></span>
                         </a>
-                        <a href="/remove/<%= details._id %>" class="remove">
+                        <a href="/remove/<%= task._id %>" class="remove">
                         <span class="fas fa-times"></span>
                         </a>
                     </li>

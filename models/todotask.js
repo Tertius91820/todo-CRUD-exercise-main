@@ -1,4 +1,4 @@
-const mongoose = require('mongoose');
+const mongoose = require('mongoose'); //import { Schema, model } from 'mongoose'
 const todoTaskSchema = new mongoose.Schema({
 title: {
     type: String,
@@ -13,4 +13,6 @@ date: {
     default: Date.now
 }
 })
-module.exports = mongoose.model('TodoTask',todoTaskSchema,'tasks');
+
+//Database(Which is also in .env db_string)= 'ClaireToDo' ,Collection = 'tasks'
+module.exports = mongoose.model('ClaireToDo',todoTaskSchema,'tasks');
